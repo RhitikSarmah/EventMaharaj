@@ -1,0 +1,59 @@
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 3px 3px;
+  float: left;
+  width: 49.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.font-crimson{
+  font-family: 'Crimson Text', serif;
+}
+.position-ref {
+    position: relative;
+}
+.padding-footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.div-margin{
+  margin-top: 60px;
+}
+.footer-logo-margin{
+  margin-top: 20px; 
+  margin-bottom: 20px;
+}

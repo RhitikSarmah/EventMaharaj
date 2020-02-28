@@ -1,0 +1,77 @@
+ html, body {
+                background-color: #fff;
+                color: black;
+                font-weight: 200;
+                height: 100vh;
+                margin: 0;
+            }
+
+            .full-height {
+                height: 90vh;
+            }
+
+            .flex-center {
+                align-items: center;
+                display: flex;
+                justify-content: center;
+            }
+
+            .position-ref {
+                position: relative;
+            }
+
+            .top-right {
+                position: absolute;
+                right: 10px;
+                top: 18px;
+            }
+            .main-content{
+               text-align: center; 
+            }
+            .title {
+                font-size: 40px;
+                font-family: 'Crimson Text', serif;
+            }
+            .links{
+                color: white;
+            }
+            .links > a {
+                color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-size: 25px;
+                font-weight: 500;
+                letter-spacing: .1rem;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-family: 'Cinzel', serif;
+            }
+            .links a:hover{
+               color:#ffc107;
+            }
+            .m-b-md {
+                margin-bottom: 30px;
+            }
+          /*  .home-links{
+                background-color: rgba(0,0,0,0.5); 
+                padding-bottom: 50px;
+            }
+            .home-list{
+                padding-bottom: 30px; 
+                background-color: rgba(0,0,0,0.5);
+            }*/
+           .slides{
+                width:100%;
+                height:100vh;
+                background-size: cover;
+                background-position: center center;
+                background-image: url('../images/home4.jpg');
+                background-repeat: no-repeat;
+            }
+            .index{
+                height: 100vh;
+                background-color: rgba(0,0,0,0.75);
+            }
+            .home-nav{
+                margin-top: -10px;
+            }
